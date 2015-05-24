@@ -13,6 +13,7 @@
 		206B84601B11E363000044A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206B845F1B11E363000044A9 /* Images.xcassets */; };
 		206B84631B11E363000044A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 206B84611B11E363000044A9 /* LaunchScreen.xib */; };
 		206B846F1B11E364000044A9 /* ContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B846E1B11E364000044A9 /* ContactTests.swift */; };
+		206B84791B11E82F000044A9 /* AddressBookHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206B84781B11E82F000044A9 /* AddressBookHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		206B84681B11E364000044A9 /* ContactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		206B846D1B11E364000044A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		206B846E1B11E364000044A9 /* ContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTests.swift; sourceTree = "<group>"; };
+		206B84781B11E82F000044A9 /* AddressBookHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBookHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				206B84581B11E363000044A9 /* AppDelegate.swift */,
+				206B84781B11E82F000044A9 /* AddressBookHelper.swift */,
 				206B845A1B11E363000044A9 /* ViewController.swift */,
 				206B845C1B11E363000044A9 /* Main.storyboard */,
 				206B845F1B11E363000044A9 /* Images.xcassets */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				206B845B1B11E363000044A9 /* ViewController.swift in Sources */,
+				206B84791B11E82F000044A9 /* AddressBookHelper.swift in Sources */,
 				206B84591B11E363000044A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
