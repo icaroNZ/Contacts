@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AddressBookUI
 
 class ViewController: UIViewController {
 
@@ -17,11 +18,12 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        var g = getAllAddresses()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(animated: Bool) {
-        email = AddressBookHelper()
+        email = AddressBookHelper(displayProperties: [Int(kABPersonAddressProperty)])
     }
 
     override func didReceiveMemoryWarning() {

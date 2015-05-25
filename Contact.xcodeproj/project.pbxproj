@@ -415,6 +415,7 @@
 				206B84741B11E364000044A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		206B84751B11E364000044A9 /* Build configuration list for PBXNativeTarget "ContactTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				206B84771B11E364000044A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
